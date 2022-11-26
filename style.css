@@ -1,0 +1,417 @@
+*{margin: 0% ;padding: 0%; font-family: 'Rubik', sans-serif;}
+header{
+    width:100%; 
+    height: 95vh;
+    background-image: linear-gradient(to left,white 85%, rgba(255, 255, 0, 0.681) 20% );
+}
+.navsection{
+    width: 100%;
+    height: 20vh;
+    display: flex; justify-content: space-around;
+    align-items: center;
+  background-image: linear-gradient(to top,white 80%, rgba(110,77,139,255) 20%);  
+
+}
+.logo{
+    width: 40%;
+    color: WHITE ;
+    background-image: linear-gradient( rgba(255,202,12,255) 40% , rgba(110,77,139,255) 60%);
+    padding-left: 100px;
+    box-sizing: border-box;
+    padding-top: 6px;
+    padding-bottom: 6px;
+
+
+}
+.logo h1
+{
+    text-transform: uppercase;
+    font-size: 28px;
+    animation: amzad 2s linear infinite;
+    animation-direction: alternate;
+    
+}
+@keyframes amzad 
+{
+   from{padding-left: 100px;}
+    to{padding-right: 100px;}
+}
+
+nav{
+    width: 60%;
+    justify-content: space-around;
+    display: flex;
+}
+nav a{
+    text-decoration:none;
+    text-transform: uppercase;
+color:rgb(39, 44, 105);
+font-weight: bolder;
+font-size: 30px;
+}
+
+nav a:hover{
+    background-color:aqua ;
+    color: red;
+    padding: 6px ;
+    border: 1px solid blue;
+    border-radius: 6px;
+    
+    }
+    main{
+        height: 80vh;
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+        
+    }
+.rightside{
+    color: rgb(227, 14, 14);
+    text-transform:uppercase;
+    align-items: center;
+   text-align: center;    
+}
+    
+.rightside h1{
+    margin-top: 20px;
+    font-size: 70px;
+    
+
+}
+.leftside h1{
+    margin-top: 20px;
+    font-size: 70px;
+    animation: amzadk 1s linear infinite;
+    animation-direction: alternate;
+}
+@keyframes amzadk
+{
+   from{color: black);}
+    to{color: rgba(255, 0, 0, 0);}
+}
+.leftside h2{
+    margin-top: 20px;
+    font-size: 30px;
+   
+    
+}
+.leftside .btn1{
+
+    text-decoration: none;
+    font-weight: 900;
+    font-size: 14px;
+    text-align: center;
+    padding: 12px 25px;
+    cursor: pointer;
+    text-transform: uppercase;
+    border-radius: 5px;
+    display: inline-block;
+    margin-right: 50px;
+    margin-top: 5px;
+    color: rgb(236, 244, 245);
+    letter-spacing: 0;
+    background-image: linear-gradient(to right, #4458dc 0%, rgba(255,202,12,255) 100%);
+    border: double 2px transparent;
+    box-shadow: 0 10px 30px rgba(118,85,225,0.3);
+    
+}
+.leftside .btn2{
+
+    text-decoration: none;
+    font-weight: 900;
+    font-size: 14px;
+    text-align: center;
+    padding: 12px 25px;
+    cursor: pointer;
+    text-transform: uppercase;
+    border-radius: 5px;
+    display: inline-block;
+    margin-right: 50px;
+    margin-top: 5px;
+    color: rgb(236, 244, 245);
+    letter-spacing: 0;
+    background-image: linear-gradient(to right, #4458dc 0%, rgba(255,202,12,255) 100%);
+    border:2px solid #854fee;
+    box-shadow: 0 10px 30px rgba(118,85,225,0.3);
+
+}
+
+nav0{
+    text-decoration:none;
+    text-transform: uppercase;
+color:rgb(39, 44, 105);
+font-weight: bolder;
+font-size: 30px;
+}
+
+nav0 a:hover{
+    background-color:aqua ;
+    color: red;
+    padding: 6px ;
+    border: 1px solid blue;
+    border-radius: 6px;
+    
+    }
+.ftr 
+{
+    width: 100%;
+    color: white ;
+    background-image: linear-gradient( rgba(255,202,12,255) 0% , rgba(110,77,139,255) 100%);
+    padding-left: 100px;
+    box-sizing: border-box;
+    padding-top: 6px;
+    padding-bottom: 6px;
+}
+
+/*About page style*/
+
+.about-section {
+    padding: 50px;
+    text-align: center;
+    background-color: rgba(110,77,139,255);
+    color: white;
+  }
+  .logoabout{
+    width: 40%;
+    color: WHITE ;
+    background-image: linear-gradient( rgba(255,202,12,255) 40% , rgba(110,77,139,255) 60%);
+    padding-left: 100px;
+    box-sizing: border-box;
+    padding-top: 6px;
+  }
+  .logoabout h1
+{
+    text-transform: uppercase;
+    font-size: 28px;
+    animation: amzad 2s linear infinite;
+    animation-direction: alternate;
+}
+nav1{
+    width: 60%;
+    justify-content: space-around;
+    display: flex;
+}
+nav1 a {
+    text-decoration: none;
+    text-transform: uppercase;
+color:rgb(39, 44, 105);
+font-weight: bolder;
+font-size: 30px;
+}
+
+nav1 :hover{
+    background-color:aqua ;
+    color: red;
+    border: 1px solid blue;
+    border-radius: 6px;
+    
+}
+
+* {
+    box-sizing: border-box;
+  }
+  
+  .column {
+    float: left;
+    width: 20%;
+    padding: 5px;
+  }
+  .comapnydetails{
+    float: right;
+    width: 35%;
+    padding: 5px;
+    
+  }
+ 
+
+  /* Clearfix (clear floats) */
+  .row::after {
+    content: "";
+    clear: both;
+    display: table;
+  }
+.photocontent{
+    text-align: center;
+    color: #854fee;
+}
+.degination{
+    text-align: center;
+    color: gray;
+}
+.contact{
+
+  background-color: lightgrey;
+  width: 300px;
+  border: 5px solid black;
+  padding: 10 px;
+  margin: 10px;
+  align-items: center;
+
+    text-align: center;
+}
+
+
+
+
+.ftrabout
+{
+    width: 100%;
+    color: white ;
+    background-image: linear-gradient( rgba(255,202,12,255) 50% , rgba(110,77,139,255) 50%);
+    padding-left: 100px;
+    box-sizing: border-box;
+    padding-top: 4px;
+    padding-bottom: 6px;
+    
+}
+
+/*contact page style*/
+
+about-section {
+    padding: 50px;
+    text-align: center;
+    background-color: rgba(110,77,139,255);
+    color: white;
+  }
+  .logocontact{
+    width: 40%;
+    color: WHITE ;
+    background-image: linear-gradient( rgba(255,202,12,255) 40% , rgba(110,77,139,255) 60%);
+    padding-left: 100px;
+    box-sizing: border-box;
+    padding-top: 6px;
+  }
+  .logocontact h1
+{
+    text-transform: uppercase;
+    font-size: 28px;
+    animation: amzad 2s linear infinite;
+    animation-direction: alternate;
+}
+nav2{
+    width: 60%;
+    justify-content: space-around;
+    display: flex;
+}
+nav2 a {
+    text-decoration:none;
+    text-transform: uppercase;
+color:rgb(39, 44, 105);
+font-weight: bolder;
+font-size: 30px;
+}
+
+nav2 :hover{
+    background-color:aqua ;
+    color: red;
+    border: 1px solid blue;
+    border-radius: 6px;
+    
+}
+
+* {box-sizing: border-box;}
+
+input[type=text], select, textarea {
+  width: 100%;
+  padding: 12px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+  margin-top: 6px;
+  margin-bottom: 16px;
+  resize: vertical;
+  
+}
+
+input[type=number]{
+    width: 100%;
+    padding: 12px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+    margin-top: 6px;
+    margin-bottom: 16px;
+    resize: vertical;
+}
+
+
+input[type=submit] {
+  background-color: #04AA6D;
+  color: white;
+  padding: 12px 20px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+input[type=submit]:hover {
+  background-color: #45a049;
+}
+
+.container {
+  border-radius: 5px;
+  background-color: rgba(110,77,139,255);
+  padding: 20px;
+}
+
+
+.ftrcontact
+{
+    width: 100%;
+    color: white ;
+    background-image: linear-gradient( rgba(255,202,12,255) 0% , rgba(110,77,139,255) 100%);
+    padding-left: 100px;
+    box-sizing: border-box;
+    padding-top: 6px;
+    padding-bottom: 6px;
+}
+
+/*feature page style*/
+.logofeature{
+    width: 40%;
+    color: WHITE ;
+    background-image: linear-gradient( rgba(255,202,12,255) 40% , rgba(110,77,139,255) 60%);
+    padding-left: 100px;
+    box-sizing: border-box;
+    padding-top: 6px;
+  }
+  .logofeature h1
+{
+    text-transform: uppercase;
+    font-size: 28px;
+    animation: amzad 2s linear infinite;
+    animation-direction: alternate;
+}
+nav3{
+    width: 60%;
+    justify-content: space-around;
+    display: flex;
+}
+nav3 a {
+    text-decoration:none;
+    text-transform: uppercase;
+color:rgb(39, 44, 105);
+font-weight: bolder;
+font-size: 30px;
+}
+
+nav3 :hover{
+    background-color:aqua ;
+    color: red;
+    border: 1px solid blue;
+    border-radius: 6px;
+    
+}
+
+
+
+.ftrfeature
+{
+    width: 100%;
+    color: white ;
+    background-image: linear-gradient( rgba(255,202,12,255) 0% , rgba(110,77,139,255) 100%);
+    padding-left: 100px;
+    box-sizing: border-box;
+    padding-top: 6px;
+    padding-bottom: 6px;
+}
